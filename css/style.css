@@ -1,0 +1,88 @@
+header {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    background: #FFFEF2;
+    width: 100%;
+    margin: auto;
+    align-items: flex-end;
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    background: #FFFEF2;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container,
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.logo-container {
+    flex: 2;
+}
+
+nav {
+    flex: 1;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.intro {
+    font-family: abril fatface;
+    font-size: 200px;
+}
+
+main,
+section {
+    background-color: #FFFEF2;
+}
+
+.name {
+    font-family: Lato;
+    font-size: 64px;
+    font-weight: bolder;
+}
+
+.name-details {
+    font-family: Lato;
+    font-size: 64px;
+    color: #656565;
+}
+
+.recent,
+.presentation {
+    display: flex;
+    background-color: #FFFEF2;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.foot {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    background: #2D2D2D;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    color: white;
+}
+
+.ft {
+    padding-inline: 16px;
+}
+
+.cp {
+    padding-left: 1100px;
+}
+
+.card {
+    align-items: center;
+}
